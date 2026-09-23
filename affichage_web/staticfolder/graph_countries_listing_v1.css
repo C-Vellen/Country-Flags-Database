@@ -1,0 +1,125 @@
+html {
+    font-size:16px;
+    color:#444;
+}
+body {
+    margin:0;
+    padding:0;
+}
+#container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:5px #005 solid;
+    min-width:450px;
+    padding:10px;
+    font-family:helvetica;
+    background-color:#5d5e7a;
+}
+
+.line {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    min-width:400px;
+    margin:3px;
+    padding:5px 10px 5px 10px;
+    border:1px #999 solid;
+    border-radius:7px;
+    background-color:#ccc;
+    transition:background-color 0.5s;
+}
+
+.line:hover {
+    background-color:#eff;
+    cursor:pointer;
+}
+.miniflag {
+    width:60px;
+    height:40px;
+}
+
+.countrybox {
+    width:200px;
+    margin-left:15px;
+}
+h1 {
+    margin:0;
+    padding:0;
+    font-size:1.0rem;
+    font-weight:bold;
+}
+.continentbox {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:60px;
+    height:30px;
+    margin-left:10px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px #999 solid;
+    border-radius:15px;
+}
+
+h2 {
+    text-align:center;
+    font-size:0.7rem;
+    font-weight:normal;
+}
+
+.codebox {
+    width:85px;
+    margin-left:15px;
+}
+
+h3, p {
+    margin:0;
+    padding:0;
+    font-size:0.6rem;
+}
+
+.codebox h3 {
+    font-weight:normal;
+}
+.codebox p {
+    font-weight:bold;
+}
+
+#popup {
+    position:fixed;
+    margin-top:-15px;
+    width:100%;
+    height:100%;
+    min-width:500px;
+    visibility:hidden;
+    background:rgba(0, 0, 0, 0.5);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:650px;
+}
+
+#popup:hover {
+    cursor:pointer;
+}
+#flag {
+    margin-top:-80px;
+    transition: width 1s, height 1s;
+}
+#legend {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    min-width:400px;
+    margin:3px;
+    padding:5px 10px 5px 10px;
+    border:1px #999 solid;
+    border-radius:7px;
+    background-color:#fff;
+    transition:background-color 0.5s;
+}
+ 
+
+
