@@ -9,7 +9,7 @@ Récupérer une base de donnée propre de tous les pays du monde avec :
 - Pseudo-code du continent et couleur associée
 - Drapeau des pays en format svg
 
-## 👁️ Visualisation;  [ici](https://C-Vellen.github.io/Country-Flags-Database)
+## 👁️ Visualisation:  [ici](https://c-vellen.github.io/Country-Flags-Database)
 
 ## 🛠️ Installation
 

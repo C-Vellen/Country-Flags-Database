@@ -2,7 +2,7 @@
 
 // adresse des images .svg représentant les drapeaux :
 // const flagPath = "/home/DATA/ECOSKETCH/SiteWeb/APPS_DATAVIZ/SVGD3/05-GRAPH_drapeaux_de_tous_les_pays/dataset_source/flag-icons_2023_update/"
-const flagPath = "../dataset_source/flag-icons_2023_update/"
+const flagPath = "dataset_source/flag-icons_2023_update/"
 
 const container = document.createElement("div")
 document.querySelector("body").append(container)
